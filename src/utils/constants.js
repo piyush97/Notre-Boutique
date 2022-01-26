@@ -77,4 +77,17 @@ const POPULAR_PRODUCTS = [
     img: "https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
   },
 ];
-export { APP_NAME, ANOUNCEMENT, SLIDER_ITEMS, CATEGORIES, POPULAR_PRODUCTS };
+
+const COMPANY_DATA = {
+  address: "122, Sunset Ave, Windsor, ON,N9B3P4",
+  phone: "+1 234 56 78",
+  email: "contact@notre.ca",
+};
+export {
+  APP_NAME,
+  ANOUNCEMENT,
+  SLIDER_ITEMS,
+  CATEGORIES,
+  POPULAR_PRODUCTS,
+  COMPANY_DATA,
+};

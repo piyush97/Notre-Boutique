@@ -1,12 +1,8 @@
 import "./App.css";
-import Home from "./pages/Home";
+import ProductList from "./components/ProductList";
 
 function App() {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+  return <ProductList />;
 }
 
 export default App;

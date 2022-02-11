@@ -3,6 +3,7 @@ import { useState } from "react";
 import styled from "styled-components";
 // import { mobile } from "../responsive";
 import { SLIDER_ITEMS } from "../utils/constants";
+import { mobile } from "../utils/responsive";
 
 const Container = styled.div`
   width: 100%;
@@ -10,7 +11,7 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
-  ${"" /* ${mobile({ display: "none" })} */}
+  ${mobile({ display: "none" })}
 `;
 
 const Arrow = styled.div`

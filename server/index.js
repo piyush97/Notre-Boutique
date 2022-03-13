@@ -4,9 +4,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 mongoose
-  .connect(
-    `mongodb+srv://piyush:${process.env.DB_PASS}@cluster0.xulnx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
-  )
+  .connect(`${process.env.DB_URL}`)
   .then(() => {
     console.log("Db connected");
   })
